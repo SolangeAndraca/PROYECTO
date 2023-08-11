@@ -226,22 +226,71 @@ a:hover{
 
 /* empiza css CONTACT FORM!! */
 
-.contact__form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
 
-   .contact__info {
+  .contact__form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   
+    
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .name__form , .surname__form , .email__form , .password__form , .text__form , .tel__form , 
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .submit__form{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+
+
+
+
+
+
+
+
+ .contact__title{
+    background-color: #9c9999;
     display:flex;
-    flex-direction: column;
     justify-content: center;
-    width: 300px;
-    height: 300px;
-    background-color: aqua;
+    border:2px;
+    }
 
-   }
+
 
 
    /* emmpieza media queries */
@@ -593,50 +642,4 @@ a:hover{
         font-size: 20px;
     }
 }
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
-    .navbar-brand {
-      display: flex;
-      align-items: center; /* En lugar de "baseline" para centrar verticalmente */
-      width: 100%; /* O cualquier otro valor que desees */
-      height: auto; /* Para que la altura se ajuste al contenido */
-      justify-content: center; /* Centrar horizontalmente */
-      padding: 10px; /* Añadir un poco de espacio alrededor */
-      box-sizing: border-box; /* Incluir el padding en el ancho y alto */
-      border: none;
-    }
-  
-    .collapse {
-      display: flex;
-      flex-direction: column; /* Apilar elementos verticalmente */
-      align-items: flex-start;
-    }
-  
-    .navbar-expand-lg {
-      height: auto; /* La altura se ajustará al contenido */
-      display: block; /* Cambiar a bloque en lugar de flex para ocupar todo el ancho */
-      padding: 10px; /* Añadir espacio alrededor */
-      box-sizing: border-box; /* Incluir el padding en el ancho y alto */
-    }
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
