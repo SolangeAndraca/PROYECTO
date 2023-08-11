@@ -275,20 +275,36 @@ body {
     cursor: pointer;
   }
 
-
-
-
-
-
-
-
-
  .contact__title{
     background-color: #9c9999;
     display:flex;
     justify-content: center;
     border:2px;
     }
+
+
+    /*footer*/
+
+    .footer__contacto{
+        margin-top: 3%;
+      }
+
+   .logo__facebook{
+       width: 10%;
+       padding: 3%;
+       
+   }
+   
+   .logo__twitter{
+       width: 10%;
+       padding: 3%;
+   }
+   
+   .logo__instagram{
+       width: 10%;
+       padding: 3%;
+   }
+
 
 
 
