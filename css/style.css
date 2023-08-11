@@ -311,57 +311,6 @@ body {
 
    /* emmpieza media queries */
 
-   /*menu y logo */
-/*
-@media (max-width: 768px) {
-    .navbar-brand {
-        display: block;
-        width: auto;
-        height: auto;
-    }
-    
-    .collapse {
-        display: none;
-    }
-    
-    .navbar-expand-lg {
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media (max-width: 1024px) {
-    .navbar-brand {
-        width: auto;
-        height: auto;
-    }
-    
-    .navbar-expand-lg {
-        height: auto;
-        align-items: center;
-    }
-}
-
-@media (min-width: 1025px) {
-    .navbar-brand {
-        width: auto;
-        height: auto;
-    }
-    
-    .collapse {
-        display: block;
-    }
-    
-    .navbar-expand-lg {
-        height: 150px;
-        align-items: flex-end;
-    }
-}
-*/
-
-
 /*history*/
 
 @media (max-width: 768px) {

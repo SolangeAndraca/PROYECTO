@@ -1,8 +1,4 @@
 
-$text-color:black;
-
-
-
 /*  empieza css del index*/
 
 .image__carousel{
@@ -47,7 +43,7 @@ $text-color:black;
 /* empieza css history */
 
 .body__history{
-    background-color: $bgcolor; }
+    background-color: #ffffff; }
 
 .image__history{
     display: flex;
@@ -91,7 +87,7 @@ $text-color:black;
 }
 
 .p__span1{
-    color: $text-color;
+    color: black;
     font-weight:bold;
     font-size: 20px;
 }
@@ -231,81 +227,90 @@ a:hover{
 
 /* empiza css CONTACT FORM!! */
 
-.contact__form{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-  
-}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+  }
 
-.contact__info {
-    line-height: 28px;
-    color: #6d6d6d;
-    margin-bottom: 20px;
-    padding-left: 30px;
-    font-size: 17px;
-    color: black
-}
-
-.contact__title{
-    border: 3px dotted;
+  .contact__form {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+   
     
-}
+  }
+
+  label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+  .name__form , .surname__form , .email__form , .password__form , .text__form , .tel__form , 
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    
+
+  }
+
+  textarea {
+    height: 150px;
+  }
+
+  .submit__form{
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+  }
+
+ .contact__title{
+    background-color: #9c9999;
+    display:flex;
+    justify-content: center;
+    border:2px;
+    }
+
+
+    /*footer*/
+
+    .footer__contacto{
+        margin-top: 3%;
+      }
+
+   .logo__facebook{
+       width: 10%;
+       padding: 3%;
+       
+   }
+   
+   .logo__twitter{
+       width: 10%;
+       padding: 3%;
+   }
+   
+   .logo__instagram{
+       width: 10%;
+       padding: 3%;
+   }
+
 
 
 
 
    /* emmpieza media queries */
-
-   /*menu y logo */
-/*
-@media (max-width: 768px) {
-    .navbar-brand {
-        display: block;
-        width: auto;
-        height: auto;
-    }
-    
-    .collapse {
-        display: none;
-    }
-    
-    .navbar-expand-lg {
-        height: auto;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    }
-}
-
-@media (max-width: 1024px) {
-    .navbar-brand {
-        width: auto;
-        height: auto;
-    }
-    
-    .navbar-expand-lg {
-        height: auto;
-        align-items: center;
-    }
-}
-
-@media (min-width: 1025px) {
-    .navbar-brand {
-        width: auto;
-        height: auto;
-    }
-    
-    .collapse {
-        display: block;
-    }
-    
-    .navbar-expand-lg {
-        height: 150px;
-        align-items: flex-end;
-    }
-}
-*/
 
 
 /*history*/
@@ -604,3 +609,4 @@ a:hover{
         font-size: 20px;
     }
 }
+
