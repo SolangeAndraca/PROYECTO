@@ -1,3 +1,8 @@
+
+$text-color:black;
+
+
+
 /*  empieza css del index*/
 
 .image__carousel{
@@ -42,7 +47,11 @@
 /* empieza css history */
 
 .body__history{
-    background-color: #ffffff; }
+    background-color: rgb(2,0,36);
+    background: linear-gradient(306deg, rgba(2,0,36,1) 0%, rgba(207,209,171,0.9318102240896359) 0%, rgba(241,255,255,1) 100%);
+    
+    
+     }
 
 .image__history{
     display: flex;
@@ -86,7 +95,7 @@
 }
 
 .p__span1{
-    color: black;
+    color: $text-color;
     font-weight:bold;
     font-size: 20px;
 }
@@ -593,50 +602,3 @@ a:hover{
         font-size: 20px;
     }
 }
-
-/* Estilos para dispositivos móviles */
-@media (max-width: 767px) {
-    .navbar-brand {
-      display: flex;
-      align-items: center; /* En lugar de "baseline" para centrar verticalmente */
-      width: 100%; /* O cualquier otro valor que desees */
-      height: auto; /* Para que la altura se ajuste al contenido */
-      justify-content: center; /* Centrar horizontalmente */
-      padding: 10px; /* Añadir un poco de espacio alrededor */
-      box-sizing: border-box; /* Incluir el padding en el ancho y alto */
-      border: none;
-    }
-  
-    .collapse {
-      display: flex;
-      flex-direction: column; /* Apilar elementos verticalmente */
-      align-items: flex-start;
-    }
-  
-    .navbar-expand-lg {
-      height: auto; /* La altura se ajustará al contenido */
-      display: block; /* Cambiar a bloque en lugar de flex para ocupar todo el ancho */
-      padding: 10px; /* Añadir espacio alrededor */
-      box-sizing: border-box; /* Incluir el padding en el ancho y alto */
-    }
-  }
-  
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
