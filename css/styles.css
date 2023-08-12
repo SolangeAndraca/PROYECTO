@@ -236,65 +236,81 @@
     font-size: 20px;
   }
 }
-/*  empieza css del index*/
-.image__carousel {
-  width: 100%;
-  height: 500px;
-  object-fit: cover;
-}
-
-/*termina css del index*/
-/* empieza css del menu y logo*/
-.navbar-brand {
-  display: flex;
-  align-items: baseline;
-  width: 200px;
-  height: 110px;
-  border: hidden;
-}
-
-.collapse {
-  display: flex;
-  justify-content: flex-start;
-}
-
 .navbar-expand-lg {
   height: 150px;
   width: 100%;
   display: flex;
   align-items: flex-end;
 }
+.navbar-expand-lg .navbar-brand {
+  display: flex;
+  align-items: baseline;
+  width: 200px;
+  height: 110px;
+  border: hidden;
+}
+.navbar-expand-lg .collapse {
+  display: flex;
+  justify-content: flex-start;
+}
 
-/*termina css del menu y logo*/
-/* empieza css history */
 .body__history {
   background-color: #ffffff;
 }
-
-.image__history {
+.body__history .image__history {
   display: flex;
   border: hidden 5px;
   padding: 7px;
 }
+.body__history .image__history__box {
+  width: 600px;
+  height: 350px;
+  margin: 5px;
+  border-radius: 1%;
+}
+.body__history .image__history1 {
+  display: flex;
+  border: hidden 5px;
+  flex-direction: row-reverse;
+  padding: 7px;
+}
 
-/* termina css history */
-/*empieza css de tourism*/
+.text__box {
+  margin: 10px;
+  font-size: 17px;
+  font-family: sans-serif;
+}
+.text__box .title__box {
+  display: flex;
+  justify-content: center;
+  font-size: 27px;
+  font-family: sans-serif;
+  color: black;
+  font-weight: normal;
+}
+.text__box .p__span {
+  color: black;
+  font-weight: bold;
+}
+.text__box .p__span1 {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
-
-body {
+* body {
   background: #ffffff;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-a {
+* a {
   text-decoration: none;
 }
-
-a:hover {
+* a:hover {
   text-decoration: underline;
 }
 
@@ -303,11 +319,10 @@ a:hover {
   width: 90%;
   margin: 0 auto;
 }
-
-.contenedor__cards {
+.contenedor .contenedor__cards {
   margin: 70px 0;
 }
-.contenedor__cards .card {
+.contenedor .card {
   background-color: rgb(206, 206, 206);
   border-radius: 15px;
   padding: 20px;
@@ -317,13 +332,16 @@ a:hover {
   position: relative;
   margin-bottom: 50px;
 }
-.contenedor__cards .card__img {
+.contenedor .card__img {
   width: 300px;
   height: 200px;
   border-radius: 15px;
   object-fit: cover;
 }
-.contenedor__cards .card__extracto {
+.contenedor .card__enlace {
+  color: black;
+}
+.contenedor .card__extracto {
   line-height: 28px;
   color: #6d6d6d;
   margin-bottom: 20px;
@@ -331,7 +349,7 @@ a:hover {
   font-size: 17px;
   color: black;
 }
-.contenedor__cards .card__title {
+.contenedor .card__title {
   display: flex;
   justify-content: center;
   padding-bottom: 7px;
@@ -339,39 +357,29 @@ a:hover {
   font-size: 25px;
   font-weight: normal;
 }
-
-.card__enlace {
-  color: black;
-}
-
-.list__card {
+.contenedor .list__card {
   display: flex;
   flex-direction: column;
 }
 
-/*termina css de tourism*/
-/*empieza css de living*/
 .image__container {
   display: flex;
   border: hidden 5px;
   margin: 15px;
 }
-
-.imagebox {
+.image__container .imagebox {
   width: 600px;
   height: 350px;
   margin: 5px;
   border-radius: 3%;
 }
-
-.text__box {
+.image__container .text__box {
   margin: 10px;
   padding: 7px;
   font-size: 17px;
   font-family: sans-serif;
 }
-
-.title__box {
+.image__container .title__box {
   display: flex;
   justify-content: center;
   margin: 4px;
@@ -380,20 +388,16 @@ a:hover {
   font-family: sans-serif;
   color: black;
 }
-
-.p__span {
+.image__container .p__span {
   color: black;
   font-weight: bold;
 }
-
-.p__span1 {
+.image__container .p__span1 {
   color: black;
   font-weight: bold;
   font-size: 20px;
 }
 
-/*termina css de living*/
-/* empiza css CONTACT FORM!! */
 body {
   font-family: Arial, sans-serif;
   background-color: #f4f4f4;
@@ -405,65 +409,62 @@ body {
   max-width: 600px;
   margin: 20px auto;
   padding: 20px;
-  background-color: #ffffff;
+  background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-
-label {
+.contact__form label {
   display: block;
   font-weight: bold;
   margin-bottom: 5px;
 }
-
-.name__form, .surname__form, .email__form, .password__form, .text__form, .tel__form,
-textarea {
+.contact__form .name__form, .contact__form .surname__form, .contact__form .email__form, .contact__form .password__form, .contact__form .text__form, .contact__form .tel__form,
+.contact__form textarea {
   width: 100%;
   padding: 10px;
   margin-bottom: 10px;
   border: 1px solid #ccc;
   border-radius: 3px;
 }
-
-textarea {
+.contact__form textarea {
   height: 150px;
 }
-
-.submit__form {
+.contact__form .submit__form {
   display: inline-block;
   padding: 10px 20px;
   background-color: #007bff;
-  color: #ffffff;
+  color: #fff;
   border: none;
   border-radius: 3px;
   cursor: pointer;
 }
-
-.contact__title {
+.contact__form .contact__title {
   background-color: #9c9999;
   display: flex;
   justify-content: center;
   border: 2px;
 }
 
-/*footer*/
 .footer__contacto {
   margin-top: 3%;
 }
-
-.logo__facebook {
+.footer__contacto .logo__facebook {
+  width: 10%;
+  padding: 3%;
+}
+.footer__contacto .logo__twitter {
+  width: 10%;
+  padding: 3%;
+}
+.footer__contacto .logo__instagram {
   width: 10%;
   padding: 3%;
 }
 
-.logo__twitter {
-  width: 10%;
-  padding: 3%;
-}
-
-.logo__instagram {
-  width: 10%;
-  padding: 3%;
+.image__carousel {
+  width: 100%;
+  height: 500px;
+  object-fit: cover;
 }
 
 /*# sourceMappingURL=styles.css.map */
