@@ -1,0 +1,297 @@
+/*history*/
+
+@media (max-width: 768px) {
+    .image__history, .image__history1 {
+        flex-direction: column;
+        padding: 0;
+    }
+    
+    .image__history__box {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+    }
+    
+    .text__box {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+    
+    .title__box {
+        font-size: 24px; 
+    }
+    
+    .p__span1 {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .image__history {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .image__history__box {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+    }
+
+    .image__history1 {
+        flex-direction: column;
+        padding: 0;
+    }
+
+    .text__box {
+        margin: 10px 0;
+        font-size: 16px;
+    }
+
+    .title__box {
+        font-size: 24px;
+    }
+
+    .p__span1 {
+        font-size: 18px;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .image__history, .image__history1 {
+        display: flex;
+        flex-direction: row;
+        padding: 7px;
+    }
+
+    .image__history__box {
+        width: 600px;
+        height: 350px;
+        margin: 5px;
+        border-radius: 1%;
+    }
+
+    .text__box {
+        margin: 10px;
+        font-size: $fontsize;
+        font-family: $myfont;
+    }
+
+    .title__box {
+        display: flex;
+        justify-content: center;
+        font-size: $fontsize_2;
+        font-family:$myfont;
+        color: $mycolor_2;
+        font-weight: normal;
+    }
+
+    .p__span1 {
+        font-size: $fontsize_3;
+    }
+}
+
+/*tourism*/
+
+
+@media (max-width: 768px) {
+    .contenedor {
+        width: 100%;
+        margin: 20px auto;
+    }
+    
+    .contenedor__cards {
+        margin: 30px 0;
+    }
+    
+    .card {
+        flex-direction: column;
+        padding: 15px;
+        margin-bottom: 30px;
+    }
+    
+    .card__img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+    
+    .card__extracto {
+        padding-left: 0;
+        margin-bottom: 15px;
+        font-size: $fontsize_5;
+    }
+    
+    .card__title {
+        justify-content: flex-start;
+        font-size: $fontsize_8;
+    }
+    
+    .list__card {
+        align-items: center;
+    }
+}
+
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .contenedor {
+        max-width: 768px;
+        margin: 50px auto;
+    }
+    
+    .contenedor__cards {
+        margin: 50px 0;
+    }
+    
+    .card {
+        padding: 15px;
+        margin-bottom: 40px;
+    }
+    
+    .card__img {
+        width: 250px;
+        height: 150px;
+    }
+    
+    .card__title {
+        font-size: $fontsize_8;
+    }
+    
+    .card__extracto {
+        margin-bottom: 15px;
+        font-size: $fontsize_5;
+    }
+}
+
+
+@media (min-width: 1025px) {
+    .contenedor {
+        max-width: 1000px;
+        width: 80%;
+        margin: 50px auto;
+    }
+    
+    .contenedor__cards {
+        margin: 70px 0;
+    }
+    
+    .card {
+        padding: 20px;
+        margin-bottom: 50px;
+    }
+    
+    .card__img {
+        width: 300px;
+        height: 200px;
+    }
+    
+    .card__extracto {
+        margin-bottom: 20px;
+        font-size: $fontsize;
+    }
+    
+    .card__title {
+        justify-content: center;
+        font-size: $fontsize_4;
+    }
+}
+  
+/*living*/
+
+
+@media (max-width: 768px) {
+    .image__container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .imagebox {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+        border-radius: 3%;
+    }
+
+    .text__box {
+        margin: 10px 0;
+        padding: 5px;
+        font-size: $fontsize_5;
+    }
+
+    .title__box {
+        font-size: $fotnsize_6;
+        margin: 4px 0;
+    }
+
+    .p__span1 {
+        font-size: $fontsize_8;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .image__container {
+        flex-direction: column;
+        margin: 10px;
+    }
+
+    .imagebox {
+        width: 100%;
+        height: auto;
+        margin: 5px 0;
+        border-radius: 3%;
+    }
+
+    .text__box {
+        margin: 10px 0;
+        padding: 5px;
+        font-size: $fontsize_5;
+    }
+
+    .title__box {
+        font-size: $fotnsize_6;
+        margin: 4px 0;
+    }
+
+    .p__span1 {
+        font-size: $fontsize_7;
+    }
+}
+
+@media (min-width: 1025px) {
+    .image__container {
+        display: flex;
+        border: hidden 5px;
+        margin: 15px;
+    }
+
+    .imagebox {
+        width: 600px;
+        height: 350px;
+        margin: 5px;
+        border-radius: 3%;
+    }
+
+    .text__box {
+        margin: 10px;
+        padding: 7px;
+        font-size: $fontsize;
+        font-family: $myfont;
+    }
+
+    .title__box {
+        display: flex;
+        justify-content: center;
+        margin: 4px;
+        padding-bottom: 7px;
+        font-size: $fontsize_2;
+        font-family: $myfont;
+        color: $mycolor_2;
+    }
+
+    .p__span1 {
+        font-size: $fontsize_3;
+    }
+}
+

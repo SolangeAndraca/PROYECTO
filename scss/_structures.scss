@@ -1,0 +1,42 @@
+
+.image__history1 {
+    display: flex;
+    border: hidden 5px;
+    flex-direction:row-reverse;
+    padding: 7px;
+
+    .image__history__box{
+        width:600px;
+        height: 350px;
+        margin: 5px;
+        border-radius: 1%;
+    }
+
+}
+
+.text__box{
+    margin: 10px;
+    font-size: $fontsize;
+    font-family:$myfont;
+  
+  
+    .title__box{
+      display: flex;
+      justify-content: center; 
+      font-size: $fontsize_2;
+      font-family: $myfont;
+      color: $mycolor_2;
+      font-weight: normal;}
+  
+      .p__span{
+          color: $mycolor_2;
+          font-weight: bold;
+      
+      }
+  
+      .p__span1{
+          color: $mycolor_2;
+          font-weight:bold;
+          font-size: $fontsize_3;
+    }
+}
